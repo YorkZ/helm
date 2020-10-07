@@ -56,7 +56,6 @@
                       minibuffer-local-filename-must-match-map ; Emacs 23.1.+
                       minibuffer-local-isearch-map
                       minibuffer-local-map
-                      minibuffer-local-must-match-filename-map ; Older Emacsen
                       minibuffer-local-must-match-map
                       minibuffer-local-ns-map))
       (let ((vmap (symbol-value map)))
